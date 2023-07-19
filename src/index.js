@@ -10,9 +10,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
+      {/* <Routes>
         <Route path="/*" element={<App />}/>
-      </Routes>
+      </Routes> */}
     <App />
     </BrowserRouter>
 
